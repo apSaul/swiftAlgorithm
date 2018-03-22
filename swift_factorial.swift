@@ -1,6 +1,6 @@
 // n!: factorial de 'n' en swift
 
-func factorial (n: Int) -> Int{
+func factorial (_ n: Int) -> Int{
     return n > 0 ? n * factorial(n-1) : 1
 }
 
